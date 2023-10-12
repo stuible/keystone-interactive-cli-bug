@@ -10,20 +10,14 @@ This is based on the official starter Turborepo.
 npx create-turbo -e basic
 ```
 
-### 2. Run the following command:
-
-```sh
-npx create-turbo@latest
-```
-
-### 3. I then added Keystone CMS to `~/apps/keystone` using
+### 2. I then added Keystone CMS to `~/apps/keystone` using
 
 ```sh
 cd apps
 npm init keystone-app@latest keystone
 ```
 
-### 4. I then modified the keystone package.json to have migrate script:
+### 3. I then modified the keystone package.json to have migrate script:
 
 ```json
 "migrate": "NODE_ENV=development keystone prisma migrate dev"
