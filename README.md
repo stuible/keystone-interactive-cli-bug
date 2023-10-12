@@ -36,7 +36,7 @@ cd apps/keystone # move to keystone directory
 npm run migrate # run our new migrate npm command
 ```
 
-Recieve the following output:
+Receive the following output:
 
 ```
 Error: Prisma Migrate has detected that the environment is non-interactive, which is not supported.
